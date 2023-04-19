@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;500;700&family=Lexend+Deca&display=swap');
+
+/* See my reset.css file for the settings Im using to reset the browser default display settings */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 100%, 74%);
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    max-width: 70rem;
+    margin: 1rem;  /* This is what is giving the whole contents of the page margin, and making contents not be the width of the screen */
+}
+
+.flex-container {
+    border: 1px solid red;
+    width:90%;
+}
+
+.flex-card p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.flex-container h2 {
+    color: hsl(0, 0%, 95%);
+}
+
+.flex-card {
+    border: 1px solid green;
+    padding: 2.5rem;
+}
+
+.flexcard-sedan {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.flexcard-suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.flexcard-luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.btn-learn-more { 
+   border: 1px solid hsl(0, 0%, 95%);
+   background-color: inherit;
+   color: hsl(0, 0%, 95%);
+}
+
+/* Desktop View */
+@media screen and (min-width: 1024px) {
+    
+    .flex-container{
+        display: flex;
+    }
+}
