@@ -7,7 +7,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: hsl(0, 100%, 74%);
+    background-color: white;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -17,12 +17,13 @@ main {
 }
 
 .flex-container {
-    border: 1px solid red;
+   /* border: 1px solid red; */
     width:90%;
 }
 
 .flex-card p {
     color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 30px;
 }
 
 .flex-container h2 {
@@ -30,7 +31,7 @@ main {
 }
 
 .flex-card {
-    border: 1px solid green;
+  /*  border: 1px solid green; */
     padding: 2.5rem;
 }
 
@@ -46,10 +47,16 @@ main {
     background-color: hsl(179, 100%, 13%);
 }
 
+.card-title {
+    margin: 75px 0 25px 0;
+}
+
 .btn-learn-more { 
    border: 1px solid hsl(0, 0%, 95%);
-   background-color: inherit;
-   color: hsl(0, 0%, 95%);
+   border-radius: 35px;
+   background-color: hsl(0, 0%, 95%);
+   color: inherit; /* Needs to be fixed not currently the correct font color */
+   padding: 15px
 }
 
 /* Desktop View */
