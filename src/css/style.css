@@ -50,13 +50,23 @@ main {
 .card-title {
     margin: 75px 0 25px 0;
 }
+/* fix description text width */
+.card-description-text {
+    width: 70%;
+}
 
 .btn-learn-more { 
-   border: 1px solid hsl(0, 0%, 95%);
+   border: 3px solid hsl(0, 0%, 95%);
    border-radius: 35px;
    background-color: hsl(0, 0%, 95%);
    color: inherit; /* Needs to be fixed not currently the correct font color */
-   padding: 15px
+   padding: 10px 20px 10px 20px;
+}
+
+.btn-learn-more:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: inherit;
+    cursor: pointer;
 }
 
 /* Desktop View */
