@@ -8,7 +8,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 main {
@@ -17,7 +17,6 @@ main {
 }
 
 .flex-container {
-   /* border: 1px solid red; */
     width: 88%;
     margin-top: 5rem;
     margin-bottom: 5rem;
@@ -29,8 +28,7 @@ main {
 }
 
 .flex-card {
-  /*  border: 1px solid green; */
-    padding: 2.5rem 3rem 3rem 3rem;
+    padding: 2.5rem 3rem 3.5rem 3rem;
 }
 
 .flexcard-sedan {
@@ -54,20 +52,24 @@ main {
     color: hsl(0, 0%, 95%);
     margin: 35px 0 35px 0;
 }
-/* fix description text width */
-.card-description-text {
-   /* width: 90%; */
-   font-family: 'Lexend Deca', sans-serif;
-}
-
 
 .btn-learn-more { 
-   font-family: 'Lexend Deca', sans-serif;
    border: 3px solid hsl(0, 0%, 95%);
    border-radius: 35px;
    background-color: hsl(0, 0%, 95%);
-   color: inherit; /* Needs to be fixed not currently the correct font color */
-   padding: 10px 20px 10px 20px;
+   padding: 7px 26px 7px 26px;
+}
+
+.btn-lm-sedan{
+    color: hsl(31, 77%, 52%);
+}
+
+.btn-lm-suv{
+    color: hsl(184, 100%, 22%);
+}
+
+.btn-lm-lux{
+    color: hsl(179, 100%, 13%);
 }
 
 .btn-learn-more:hover {
@@ -81,9 +83,21 @@ main {
     
     .flex-container{
         display: flex;
-        width: 75%;
+        width: 70%;
         margin-top: 0;  /* to conteract margin on mobile screen size */
         margin-bottom: 0;
+    }
+
+    .flex-card {
+        padding: 2.5rem 0.2rem 3.5rem 3rem;
+      }
+
+    .card-description-text {
+        width: 78%;
+    }
+
+    .btn-learn-more {
+        margin-top: 60px;
     }
 
     .flexcard-sedan {
