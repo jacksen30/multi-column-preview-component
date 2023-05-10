@@ -24,8 +24,8 @@ This is my personal solution to the [3-column preview card component challenge o
 
 ##### Mobile View - Below
 ![Mobile Screenshot](./images/mobile-view-p1.JPG)
-![Mobile Screenshot](./images/mobile-view-p2.JPG)
 ![Mobile Screenshot](./images/mobile-view-p3.JPG)
+![Mobile Screenshot](./images/mobile-view-p2.JPG)
 
 
 ### Links
