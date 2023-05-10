@@ -3,17 +3,16 @@
 /* See my reset.css file for the settings Im using to reset the browser default display settings */
 
 body {
+    display: flex;
     min-height: 100vh;
+}
+
+main {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: white;
     font-family: 'Lexend Deca', sans-serif;
-}
-
-main {
-    max-width: 70rem;
-    margin: 1rem;  /* This is what is giving the whole contents of the page margin, and making contents not be the width of the screen */
 }
 
 .flex-container {
@@ -84,8 +83,6 @@ main {
     .flex-container{
         display: flex;
         width: 70%;
-        margin-top: 0;  /* to conteract margin on mobile screen size */
-        margin-bottom: 0;
     }
 
     .flex-card {
