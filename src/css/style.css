@@ -136,8 +136,8 @@ a {
    border-radius: 35px;
    background-color: hsl(0, 0%, 95%);
    text-transform: capitalize;
-   padding: 7px 26px 7px 26px;
-   max-width:9.08rem;
+   padding: 7px 22px 7px 22px;
+   max-width:9.5rem;
    margin-top: auto; /* Using this in conjunction with a flex column / card ensures that
                         all the buttons will align horizontially regardless of different content lengths in each card */   
 }
@@ -173,7 +173,7 @@ a {
       }
 
     .flex-card p {
-        margin-bottom: 90px;
+        margin-bottom: 70px;
     }
 
     .card-description-text {
