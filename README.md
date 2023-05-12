@@ -4,9 +4,10 @@ This is my personal solution to the [3-column preview card component challenge o
 
 ## Heres are a few features of my website / component
 
+* The HTML uses semantic tags where possible.
 * Mobile first design as to be inline with Googles mobile first indexing best practices in relation to SEO.
 * The page is responsive, currently has 2 breakpoints but more may be added in the future.
-* The HTML uses semantic tags where possible.
+* The use of CSS Flexbox to further increase the responsiveness of the page for all screen sizes.
 * Rems used as the prefered unit of measure. 
 * (Learn More) Buttons use the onclick attribute to navigate to the desired page (Currently set to '#')
 
@@ -36,8 +37,7 @@ This is my personal solution to the [3-column preview card component challenge o
 ### Built with
 
 - Semantic HTML5 markup
-- CSS 3 
-- JavaScript (Only used for the onclick attribute of HTML buttons, to be used for page navigation)
+- CSS 3
 
 ## Author
 
