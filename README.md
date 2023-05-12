@@ -9,7 +9,8 @@ This is my personal solution to the [3-column preview card component challenge o
 * The page is responsive, currently has 2 breakpoints but more may be added in the future.
 * The use of CSS Flexbox to further increase the responsiveness of the page for all screen sizes.
 * Rems used as the prefered unit of measure. 
-* (Learn More) Buttons use the onclick attribute to navigate to the desired page (Currently set to '#')
+* (Learn More) CTA anchor tags styled as buttons. By making each card its own flex container / card / column and setting the
+.btn-learn-more { margin-top: auto; } it ensures on desktop size screens that the learn more buttons will stay in horizontal alignment with each other regardless of the different lengths of content in each card;
 
 
 ## Table of contents
